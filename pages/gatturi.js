@@ -7,44 +7,46 @@ export default function Home() {
   return (
     <>
     <div className='main'>
-      <p className='title'>気分を選択してね！</p>
+      <p className='title'>ジャンルを選択してね！</p>
       <div className='sentaku'>
-      <Link href="/gatturi">
+      
       <div className='oowaku'>
-         <p className='p1'>🍚</p>
-         <p className='p2'>がっつり</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=焼肉">
+         <p className='p1'>🥓</p>
+         <p className='p2'>焼肉</p>
+         </a>
       </div>
-      </Link>
-      <Link href="/assari">
+
         <div className='oowaku'>
-         <a className='p1'>🍲</a>
-         <p className='p2'>あっさり</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=ステーキ">
+         <p className='p1'>🥩</p>
+         <p className='p2'>ステーキ</p>
+        </a>
         </div>
-        </Link>
         <div className='oowaku'>
-        <a href="https://www.google.com/maps/search/?api=1&query=辛い">
-         <p className='p1'>🌶</p>
-         <p className='p2'>辛い</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=海鮮">
+         <p className='p1'>🐟</p>
+         <p className='p2'>海鮮</p>
          </a>
         </div>
-        <Link href="/daietto">
         <div className='oowaku'>
-         <a className='p1'>🥗</a>
-         <p className='p2'>ダイエット中</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=ハンバーガー">
+         <p className='p1'>🍔</p>
+         <p className='p2'>ハンバーガー</p>
+         </a>
         </div>
-        </Link>
-        <Link href="/sassato">
         <div className='oowaku'>
-         <p className='p1'>💨</p>
-         <p className='p2'>さっさと</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=ラーメン">
+         <p className='p1'>🍜</p>
+         <p className='p2'>ラーメン</p>
+         </a>
         </div>
-        </Link>
-        <Link href="/annka">
         <div className='oowaku'>
-         <a className='p1'>💰</a>
-         <p className='p2'>安価</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=イタリアン">
+         <p className='p1'>🍕</p>
+         <p className='p2'>イタリアン</p>
+         </a>
         </div>
-        </Link>
       </div>
     </div>
 
