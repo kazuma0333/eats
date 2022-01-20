@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
     <div className='main'>
-      <p className='title'>ジャンルを選択してね！統一感出したい</p>
+      <p className='title'>ジャンルを選択してね！</p>
       <div className='sentaku'>
       <div className='oowaku'>
       <a href="https://www.google.com/maps/search/?api=1&query=ラーメン">
