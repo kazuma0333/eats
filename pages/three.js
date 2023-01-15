@@ -7,14 +7,14 @@ export default function Home() {
   return (
     <>
     <div className='main'>
-      <img src="/map.png" className='one-phote'></img>
+      <img src="/three-phote.png" className='one-phote'></img>
       <hr></hr>
       <div className='main-text'>
       <p className='one-p1'>今の気分に合う飲食店を見つけよう！</p>
       <p className='one-p2'>「今からどこ行く？」が即決<br></br>さっそく使ってみてね</p>
       <div className='one-bottom'>
         <p className='p-back'>-</p>
-        <Link href="https://eats-gamma.vercel.app/">
+        <Link href="/one">
             <p className='p-next'>はじめる</p>
         </Link>
       </div>

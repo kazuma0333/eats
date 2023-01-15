@@ -7,68 +7,83 @@ export default function Home() {
   return (
     <>
     <div className='main'>
-      <img src="/one-phote.png" className='one-phote'></img>
-      <hr></hr>
-      <div className='main-text'>
-      <p className='one-p1'>どんなサービス🤔？？</p>
-      <p className='one-p2'>気分に合う絵文字を選択していくだけで<br></br>今の気分にピッタリな飲食店がすぐに見つかるサービスです</p>
-      <div className='one-bottom'>
-        <Link href="https://eats-gamma.vercel.app/">
-            <p className='p-back'>スキップ</p>
-        </Link>
-        <Link href="/two">
-            <p className='p-next'>次へ</p>
-        </Link>
+      <p className='title'>気分を選択してね！</p>
+      <div className='sentaku'>
+      <Link href="/gatturi">
+      <div className='oowaku'>
+         <p className='p1'>🍚</p>
+         <p className='p2'>がっつり</p>
       </div>
-      <img src="/one button.png" className='one-button'></img>
+      </Link>
+      <Link href="/assari">
+        <div className='oowaku'>
+         <a className='p1'>🍲</a>
+         <p className='p2'>あっさり</p>
+        </div>
+        </Link>
+        <div className='oowaku'>
+        <a href="https://www.google.com/maps/search/?api=1&query=辛い">
+         <p className='p1'>🌶</p>
+         <p className='p2'>辛い</p>
+         </a>
+        </div>
+        <Link href="/daietto">
+        <div className='oowaku'>
+         <a className='p1'>🥗</a>
+         <p className='p2'>ヘルシー</p>
+        </div>
+        </Link>
+        <Link href="/sassato">
+        <div className='oowaku'>
+         <p className='p1'>💨</p>
+         <p className='p2'>さっさと</p>
+        </div>
+        </Link>
+        <a href="https://www.google.com/maps/search/?api=1&query=居酒屋">
+        <div className='oowaku'>
+         <a className='p1'>🍻</a>
+         <p className='p2'>飲み</p>
+        </div>
+        </a>
       </div>
     </div>
 
     <style jsx>{`
         .main{
-            margin-top: 5vh;
+            margin: 14% 0 0 0;
+        }
+
+        .title{
             text-align: center;
         }
-        .one-phote {
-            width: auto;
-            height: 65vh;
-            margin-bottom: 5vh;
-        }
-        .main-text {
-            padding: 5% 0;
-        }
-        .one-p1 {
-            font-size: 16px;
-            font-weight: bold;
-        }
-        .one-p2 {
-            font-size: 12px;
-            color: #A3A0A2;
-            margin-bottom: 24px;
-        }
-        .one-bottom {
+
+        .sentaku{
             display: flex;
-            justify-content: space-between;
-            width: 80%;
-            margin-left: auto;
-            margin-right:  auto;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .one-button {
-            height: 1.5vh;
+        
+        .p1{
+            display: inline-block;
+            width: 108px;
+            height: 108px;
             text-align: center;
+            line-height: 108px;
+            background-color: #F0F0F0;
+            border-radius:30px;
+            font-size: 50px;
+            text-decoration: none;
+            margin: 30px 30px 0 30px;
         }
-        .p-back {
-            color: #A3A0A2;
-            font-size: 14px;
-            font-weight: bold;
-            margin: 0;
+
+        .p2{
+            display: flex;
+            width: 100%;
+            height: 29px;
+            justify-content: center;
+            margin: 10px 0 0 0;
         }
-        .p-next {
-            color: #61A3F9;
-            font-size: 14px;
-            font-weight: bold;
-            margin: 0;
-        }
+
       `}
       </style>
     </>
