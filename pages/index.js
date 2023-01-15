@@ -30,7 +30,7 @@ export default function Home() {
         <Link href="/daietto">
         <div className='oowaku'>
          <a className='p1'>🥗</a>
-         <p className='p2'>ダイエット中</p>
+         <p className='p2'>ヘルシー</p>
         </div>
         </Link>
         <Link href="/sassato">
@@ -39,12 +39,12 @@ export default function Home() {
          <p className='p2'>さっさと</p>
         </div>
         </Link>
-        <Link href="/annka">
+        <a href="https://www.google.com/maps/search/?api=1&query=居酒屋">
         <div className='oowaku'>
-         <a className='p1'>💰</a>
-         <p className='p2'>安価</p>
+         <a className='p1'>🍻</a>
+         <p className='p2'>飲み</p>
         </div>
-        </Link>
+        </a>
       </div>
     </div>
 
